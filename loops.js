@@ -14,7 +14,7 @@ function forLoop(myArray) {
 
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
-    array[i] = `I am ${i} strange loop${i === 0 || i === 1 ? '':'s'}.`
+    array.push(`I am ${i} strange loop${i === 0 || i === 1 ? '':'s'}.`);
     // array[i] = "I am 1 strange loop.";
   };
   return array;
